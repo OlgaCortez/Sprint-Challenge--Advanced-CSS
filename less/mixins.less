@@ -1,1 +1,19 @@
 // Mixins Here
+
+.button(@color, @width) {
+    display: block;
+    background-color: @color;
+    color: white;
+    margin: 0 10px 15px;
+    line-height: 40px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  
+    &:hover {
+      background-color: blue;
+    }
+}
