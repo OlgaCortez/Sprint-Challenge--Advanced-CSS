@@ -160,6 +160,37 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.start {
+  background-color: #f4f4f4;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+header div {
+  max-width: 880px;
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 4.5rem;
+  padding: 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +200,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .firstPic {
+  border-radius: 10px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +246,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: black;
+  color: white;
+  margin: 0 10px 15px;
+  line-height: 40px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;
