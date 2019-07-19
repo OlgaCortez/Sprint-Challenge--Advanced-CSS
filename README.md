@@ -1,3 +1,25 @@
+Olga's Self Study Questions
+
+1.	What is the difference between an adaptive website and a fully responsive website?
+
+Adaptive website will adapt the webpage content based on the screen size were as fully responsive website you have to make separate web pages based on different screen sizes.
+
+2.	Describe what it means to be mobile first vs desktop first.
+
+Desktop first means when a company designs its content or higher resolution and knowing most of the visits comes from desktops. Mobile first is designed with functionality in mind and will continue to build its content for mobile devices and expands once its get more information from its website traffic.
+
+3.	What does font-size: 62.5% in the html tag do for us when using rem units?
+
+62.5% sets the font size to the browser’s font setting of 16px and the % help figure out the rem units easier.
+
+4.	How would you describe preprocessing to someone new to CSS?
+
+A process in which you can create variables(arguments) which in turn you can use to nest code with in your css in less to write less code.
+
+5.	What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Writing less code and I still have trouble including media queries within the index.less with preprocessing.
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
