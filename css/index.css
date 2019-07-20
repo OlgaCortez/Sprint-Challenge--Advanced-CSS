@@ -178,20 +178,19 @@ header div {
 }
 @media (max-width: 500px) {
   header div {
-    display: flex;
-    width: 100%;
+    width: 500px;
   }
 }
-header h1 {
+header div h1 {
   font-size: 4.5rem;
   padding: 15px;
 }
-header nav {
+header div nav {
   display: flex;
   justify-content: space-between;
   width: 50%;
 }
-header nav a {
+header div nav a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
@@ -207,6 +206,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .intro {
+    width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -215,6 +224,11 @@ footer {
 }
 .home .intro .main-image {
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .home .intro .main-image {
+    width: 485px;
+  }
 }
 .home .space-images {
   display: flex;
@@ -227,14 +241,18 @@ footer {
     display: none;
   }
 }
-.home .space-images img {
+.home .space-images .blast,
+.home .space-images .sky,
+.home .space-images .launch {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
 @media (max-width: 500px) {
-  .home .space-images .blast {
+  .home .space-images .blast,
+  .home .space-images .sky,
+  .home .space-images .launch {
     width: 100%;
   }
 }
@@ -254,21 +272,24 @@ footer {
   display: flex;
   justify-content: center;
 }
-.home .walk .mobile-image {
-  display: none;
-}
 .home .walk .walk-text {
   width: 50%;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text .mobile-image {
-    display: block;
-    padding: 20px;
-  }
-}
-@media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin: 0 auto;
+  }
+}
+.home .walk .walk-text .mobile-img {
+  display: none;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .mobile-img {
+    display: block;
+    width: 100%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
   }
 }
 .home .walk .walk-text h3 {
@@ -295,8 +316,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    width: 350px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
     text-align: center;
     padding: 5px;
   }
@@ -306,7 +327,7 @@ footer {
   margin-left: 4%;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-img .desktop {
+  .home .walk .walk-img {
     display: none;
   }
 }
